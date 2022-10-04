@@ -145,3 +145,26 @@ header .navigation li a {
     filter: invert(1);
     transform: scale(0.5);
 }
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imgBox {
+    max-width: 500px;
+    display: flex;
+    margin-right: 100px;
+}
+
+.imgBox img {
+    max-height: 500px;
+    transition: 0.5s;
+}
+
+.imgBox img:hover {
+    transform: rotate(20deg);
+    transition: 0.5s;
+    cursor: pointer;
+}
